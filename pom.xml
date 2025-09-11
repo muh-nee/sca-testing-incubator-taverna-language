@@ -198,6 +198,12 @@
         <version>${commons.io.version}</version>
       </dependency>
       <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.2.1</version>
+        <scope>test</scope>
+      </dependency>
+      <dependency>
         <groupId>org.apache.servicemix.bundles</groupId>
         <artifactId>org.apache.servicemix.bundles.jdom</artifactId>
         <version>${jdom2.version}</version>
